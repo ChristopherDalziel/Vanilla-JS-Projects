@@ -9,3 +9,7 @@
 # movieSeating
 
 ![movieSeating](./README_Assets/movies.png)
+
+# exchangeRateCalculator
+
+![movieSeating](./README_Assets/exchange.png)

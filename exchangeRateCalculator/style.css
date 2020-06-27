@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #5fbaa7;
+  --primary-color: #287338;
 }
 
 * {
@@ -36,7 +36,7 @@ p {
 }
 
 .money-img {
-  width: 150px;
+  width: 275px;
 }
 
 .currency {
