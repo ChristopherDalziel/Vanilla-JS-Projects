@@ -1,5 +1,7 @@
 $border-color: #313131;
 $frame-color: #e1e0e5;
+$header-background-color: #b3aeb2;
+$text-area-texture-color: #edecf1;
 
 * {
   margin: 0;
@@ -27,7 +29,7 @@ $frame-color: #e1e0e5;
   }
 
   &-frame {
-    background-color: $frame-color;
+    // background-color: $frame-color;
     z-index: 1;
     position: relative;
     height: 110%;
@@ -39,7 +41,22 @@ $frame-color: #e1e0e5;
     flex-direction: column;
 
     &-text-area {
+      font-size: 24px;
+      height: 35%;
       border: 1px solid $border-color;
+      background-color: $text-area-texture-color;
+    }
+
+    &-description {
+      margin: 5% 0 0 2%;
+
+      &-break {
+        text-align: center;
+      }
+
+      &-quote {
+        margin: 1% 0 0 2%;
+      }
     }
   }
 
@@ -47,7 +64,7 @@ $frame-color: #e1e0e5;
     text-align: center;
     margin: 0 auto;
     width: 97.5%;
-    height: 37.5%;
+    max-height: 55%;
     overflow: hidden;
     border-left: 2px solid $border-color;
     border-right: 2px solid $border-color;
@@ -60,6 +77,16 @@ $frame-color: #e1e0e5;
     border-top: 1px solid $border-color;
     border-right: 1px solid $border-color;
     border-radius: 18px/40px;
+    background-color: $header-background-color;
+    padding: 2px 10px;
+  }
+
+  &-header--set-icon {
+    float: right;
+    border: 1px solid $border-color;
+    border-radius: 18px/40px;
+    padding: 0 3px;
+    background-color: #e7c47d;
   }
 }
 
@@ -71,8 +98,38 @@ $frame-color: #e1e0e5;
   margin-top: 6px;
   border-radius: 18px/40px;
   padding-left: 10px;
+  background-color: $header-background-color;
 }
 
-.set-icon {
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #eee;
+
+  &-left {
+    font-size: 12px;
+  }
+
+  &-center--orb {
+    width: 10;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  &-right {
+    margin-top: 4%;
+    font-size: 10px;
+  }
+
+  &-right--hp {
+    margin: 1%;
+    float: right;
+    border: 1px solid $border-color;
+    border-radius: 18px/40px;
+    background-color: #a7a7a9;
+    padding: 2px 10px;
+    width: fit-content;
+  }
 }
-// ok
