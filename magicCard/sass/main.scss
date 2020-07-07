@@ -4,40 +4,65 @@
   box-sizing: border-box;
 }
 
-// .card {
-//   border: 1px solid black;
-//   width: 500px;
-//   height: 700px;
-//   margin: 0 auto;
-//   margin-top: 56px;
-//   border-radius: 25px;
+.card {
+  border: 1px solid black;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 56px;
+  border-radius: 25px;
+  box-shadow: -8px 9px 16px -3px black;
+  background-color: black;
 
-//   &-background {
-//     background-color: #eee;
-//     height: 95%;
-//     margin: 20px;
-//     border-radius: 25px;
-//   }
+  &-background {
+    background-color: #eee;
+    height: 90%;
+    margin: 20px;
+    border-radius: 25px;
+  }
 
-//   &-frame {
-//     background-color: red;
-//     z-index: 1;
-//     position: relative;
-//     height: 100%;
-//     max-width: 97%;
-//     left: 1%;
-//     top: 0.5%;
-//     left: 1.2%;
-//     display: flex;
-//     flex-direction: column;
+  &-frame {
+    background-color: #e1e0e5;
+    z-index: 1;
+    position: relative;
+    height: 110%;
+    max-width: 96%;
+    left: 2%;
+    top: 0.5%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
 
-//     &-header {
-//       border-bottom: 4px solid black;
-//       border-left: 2px solid black;
-//       border-top: 1px solid black;
-//       border-right: 1px solid black;
+    &-header {
+      border-bottom: 4px solid black;
+      border-left: 2px solid black;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      margin-top: 10px;
+      border-radius: 18px/40px;
+    }
+  }
 
-//       border-radius: 18px/40px;
-//     }
-//   }
-// }
+  &-artwork {
+    text-align: center;
+    margin: 0 auto;
+    width: 97.5%;
+    height: 37.5%;
+    overflow: hidden;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  // Shouldn't need to repeat this
+  &-header--type {
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 18px/40px;
+  }
+}
+
+.set-icon {
+}
+// ok

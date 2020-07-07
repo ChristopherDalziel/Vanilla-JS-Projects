@@ -2,3 +2,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+.card {
+  border: 1px solid black;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 56px;
+  border-radius: 25px;
+  box-shadow: -8px 9px 16px -3px black;
+  background-color: black; }
+  .card-background {
+    background-color: #eee;
+    height: 90%;
+    margin: 20px;
+    border-radius: 25px; }
+  .card-frame {
+    background-color: #e1e0e5;
+    z-index: 1;
+    position: relative;
+    height: 110%;
+    max-width: 96%;
+    left: 2%;
+    top: 0.5%;
+    right: 2%;
+    display: flex;
+    flex-direction: column; }
+    .card-frame-header {
+      border-bottom: 4px solid black;
+      border-left: 2px solid black;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      margin-top: 10px;
+      border-radius: 18px/40px; }
+  .card-artwork {
+    text-align: center;
+    margin: 0 auto;
+    width: 97.5%;
+    height: 37.5%;
+    overflow: hidden;
+    border-left: 2px solid black;
+    border-right: 2px solid black; }
+  .card-header--type {
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 18px/40px; }
