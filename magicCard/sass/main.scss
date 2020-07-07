@@ -1,3 +1,5 @@
+$border-color: #313131;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid $border-color;
   width: 500px;
   height: 696px;
   margin: 0 auto;
@@ -36,12 +38,16 @@
     flex-direction: column;
 
     &-header {
-      border-bottom: 4px solid black;
-      border-left: 2px solid black;
-      border-top: 1px solid black;
-      border-right: 1px solid black;
+      border-bottom: 4px solid $border-color;
+      border-left: 2px solid $border-color;
+      border-top: 1px solid $border-color;
+      border-right: 1px solid $border-color;
       margin-top: 6px;
       border-radius: 18px/40px;
+    }
+
+    &-text-area {
+      border: 1px solid $border-color;
     }
   }
 
@@ -51,16 +57,16 @@
     width: 97.5%;
     height: 37.5%;
     overflow: hidden;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid $border-color;
+    border-right: 2px solid $border-color;
   }
 
   // Shouldn't need to repeat this
   &-header--type {
-    border-bottom: 4px solid black;
-    border-left: 2px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 4px solid $border-color;
+    border-left: 2px solid $border-color;
+    border-top: 1px solid $border-color;
+    border-right: 1px solid $border-color;
     border-radius: 18px/40px;
   }
 }
