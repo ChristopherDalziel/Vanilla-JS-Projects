@@ -1,4 +1,5 @@
 $border-color: #313131;
+$frame-color: #e1e0e5;
 
 * {
   margin: 0;
@@ -13,8 +14,8 @@ $border-color: #313131;
   margin: 0 auto;
   margin-top: 56px;
   border-radius: 25px;
-  box-shadow: -8px 9px 16px -3px black;
-  background-color: black;
+  box-shadow: -8px 9px 16px -3px #000;
+  background-color: #000;
 
   &-background {
     background-image: url("../assets/mtg-black-background.jpg");
@@ -26,7 +27,7 @@ $border-color: #313131;
   }
 
   &-frame {
-    background-color: #e1e0e5;
+    background-color: $frame-color;
     z-index: 1;
     position: relative;
     height: 110%;
@@ -36,15 +37,6 @@ $border-color: #313131;
     right: 2%;
     display: flex;
     flex-direction: column;
-
-    &-header {
-      border-bottom: 4px solid $border-color;
-      border-left: 2px solid $border-color;
-      border-top: 1px solid $border-color;
-      border-right: 1px solid $border-color;
-      margin-top: 6px;
-      border-radius: 18px/40px;
-    }
 
     &-text-area {
       border: 1px solid $border-color;
@@ -69,6 +61,16 @@ $border-color: #313131;
     border-right: 1px solid $border-color;
     border-radius: 18px/40px;
   }
+}
+
+.frame-header {
+  border-bottom: 4px solid $border-color;
+  border-left: 2px solid $border-color;
+  border-top: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  margin-top: 6px;
+  border-radius: 18px/40px;
+  padding-left: 10px;
 }
 
 .set-icon {
