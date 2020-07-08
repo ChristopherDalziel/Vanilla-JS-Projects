@@ -150,10 +150,17 @@ $text-area-texture-color: #edecf1;
   }
 
   &-center--orb {
-    width: 10;
-    height: 6px;
-    background-color: white;
-    border-radius: 50%;
+    border-radius: 60%;
+    flex-basis: 41px;
+    height: 21px;
+    position: relative;
+    bottom: 11px;
+    z-index: 2;
+    background-color: #000;
+    background-image: url("../assets/holo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 0 4px #171314;
   }
 
   &-right {
