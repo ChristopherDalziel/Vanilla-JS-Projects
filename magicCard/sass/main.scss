@@ -44,7 +44,9 @@ $text-area-texture-color: #edecf1;
       font-size: 24px;
       height: 35%;
       border: 1px solid $border-color;
-      background-color: $text-area-texture-color;
+      // background-color: $text-area-texture-color;
+      background-image: url("../assets/texture.jpg");
+      background-repeat: repeat-y;
     }
 
     &-description {

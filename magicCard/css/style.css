@@ -33,7 +33,8 @@
       font-size: 24px;
       height: 35%;
       border: 1px solid #313131;
-      background-color: #edecf1; }
+      background-image: url("../assets/texture.jpg");
+      background-repeat: repeat-y; }
     .card-frame-description {
       margin: 5% 0 0 2%; }
       .card-frame-description-break {
