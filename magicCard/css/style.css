@@ -23,7 +23,7 @@ h2 {
     background-repeat: no-repeat;
     height: 90%;
     margin: 20px;
-    border-radius: 25px; }
+    border-radius: 10px 10px 25px 25px; }
   .card-frame {
     z-index: 1;
     position: relative;
