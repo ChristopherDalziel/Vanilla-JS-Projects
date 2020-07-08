@@ -79,6 +79,8 @@ $text-area-texture-color: #edecf1;
 
   // Shouldn't need to repeat this
   &-header--type {
+    font-family: "Beleren Bold";
+    font-size: 20px;
     border-bottom: 4px solid $border-color;
     border-left: 2px solid $border-color;
     border-top: 1px solid $border-color;
@@ -90,6 +92,7 @@ $text-area-texture-color: #edecf1;
   }
 
   &-header--set-icon {
+    font-family: "Beleren Bold";
     float: right;
     border: 1px solid $border-color;
     border-radius: 18px/40px;
@@ -107,6 +110,7 @@ $text-area-texture-color: #edecf1;
 }
 
 .frame-header {
+  font-family: "Beleren Bold";
   display: flex;
   justify-content: space-between;
   border-bottom: 4px solid $border-color;
