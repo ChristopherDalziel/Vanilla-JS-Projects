@@ -50,6 +50,11 @@ h2 {
       .card-frame-description-quote {
         font-style: italic;
         margin: 1% 0 0 2%; }
+    .card-frame-hp-container {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 1;
+      width: 102%; }
   .card-artwork {
     z-index: -1;
     text-align: center;
@@ -138,7 +143,6 @@ h2 {
     justify-content: center;
     font-family: "Beleren Bold";
     margin: 14.5% 0 0 0;
-    float: right;
     border: 1px solid #313131;
     border-radius: 18px/40px;
     background-color: #a7a7a9;

@@ -68,6 +68,13 @@ h2 {
         margin: 1% 0 0 2%;
       }
     }
+
+    &-hp-container {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 1;
+      width: 102%;
+    }
   }
 
   &-artwork {
@@ -183,7 +190,7 @@ h2 {
     justify-content: center;
     font-family: "Beleren Bold";
     margin: 14.5% 0 0 0;
-    float: right;
+    // float: right;
     border: 1px solid $border-color;
     border-radius: 18px/40px;
     background-color: #a7a7a9;
