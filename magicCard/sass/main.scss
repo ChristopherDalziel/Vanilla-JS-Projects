@@ -40,11 +40,14 @@ $text-area-texture-color: #edecf1;
     flex-direction: column;
 
     &-text-area {
+      margin: 0 auto;
+      width: 97.5%;
       font-size: 24px;
       height: 35%;
       border: 1px solid $border-color;
       background-image: url("../assets/texture.jpg");
       background-repeat: repeat-y;
+      box-shadow: 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
     }
 
     &-description {
@@ -68,20 +71,22 @@ $text-area-texture-color: #edecf1;
   }
 
   &-artwork {
+    z-index: -1;
     text-align: center;
     margin: 0 auto;
     width: 97.5%;
     max-height: 55%;
     overflow: hidden;
-    border-left: 2px solid $border-color;
-    border-right: 2px solid $border-color;
+    border-left: 2px solid #000;
+    border-bottom: 6px solid #000;
+    box-shadow: 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
   }
 
   // Shouldn't need to repeat this
   &-header--type {
+    z-index: 1;
     font-family: "Beleren Bold";
     font-size: 20px;
-    border-bottom: 4px solid $border-color;
     border-left: 2px solid $border-color;
     border-top: 1px solid $border-color;
     border-right: 1px solid $border-color;
@@ -89,6 +94,7 @@ $text-area-texture-color: #edecf1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../assets/texture.jpg");
     padding: 2px 10px;
+    box-shadow: 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
   }
 
   &-header--set-icon {
@@ -113,7 +119,6 @@ $text-area-texture-color: #edecf1;
   font-family: "Beleren Bold";
   display: flex;
   justify-content: space-between;
-  border-bottom: 4px solid $border-color;
   border-left: 2px solid $border-color;
   border-top: 1px solid $border-color;
   border-right: 1px solid $border-color;
@@ -122,6 +127,7 @@ $text-area-texture-color: #edecf1;
   padding-left: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/texture.jpg");
+  box-shadow: 0 0 0 2px #000, 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
 }
 
 .icon-container {
