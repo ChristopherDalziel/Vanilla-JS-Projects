@@ -39,6 +39,7 @@
       .card-frame-description-break {
         text-align: center; }
       .card-frame-description-quote {
+        font-style: italic;
         margin: 1% 0 0 2%; }
   .card-artwork {
     text-align: center;
