@@ -86,6 +86,7 @@ $text-area-texture-color: #edecf1;
     float: right;
     border: 1px solid $border-color;
     border-radius: 18px/40px;
+    margin: 2px 0;
     padding: 0 3px;
     background-color: #e7c47d;
   }
@@ -107,6 +108,7 @@ $text-area-texture-color: #edecf1;
   flex-direction: row;
   justify-content: space-between;
   color: #eee;
+  width: 100%;
 
   &-left {
     font-size: 12px;
