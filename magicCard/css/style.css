@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
 .card {
   border: 1px solid #313131;
   width: 500px;
@@ -39,16 +44,12 @@
       background-repeat: repeat-y;
       box-shadow: 0 0 0 5px #313131, -3px 3px 2px 5px #000; }
     .card-frame-description {
-      margin: 5% 0 0 2%; }
+      margin: 8% 0 0 2%; }
       .card-frame-description-break {
-        text-align: center; }
+        margin: 1% 5%; }
       .card-frame-description-quote {
         font-style: italic;
         margin: 1% 0 0 2%; }
-  .card h2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
   .card-artwork {
     z-index: -1;
     text-align: center;
@@ -115,7 +116,7 @@
   color: #eee;
   width: 100%; }
   .info-left {
-    margin-top: 0.5%;
+    margin-top: 1.5%;
     font-size: 9px; }
   .info-center--orb {
     border-radius: 60%;
@@ -130,16 +131,21 @@
     background-size: cover;
     box-shadow: 0 0 0 4px #171314; }
   .info-right {
-    margin-top: 2.75%;
+    margin-top: 3.75%;
     font-size: 8px; }
   .info-right--hp {
-    margin: 11.5% 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Beleren Bold";
+    margin: 14.5% 0 0 0;
     float: right;
     border: 1px solid #313131;
     border-radius: 18px/40px;
     background-color: #a7a7a9;
     padding: 2px 10px;
-    width: fit-content; }
+    width: 65px;
+    height: 31px;
+    box-shadow: inset -2px 2px 1px #313131, inset 1px -1px 0 #fff; }
 
 .paintbrush {
   max-width: 10px; }
