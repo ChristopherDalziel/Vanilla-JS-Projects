@@ -42,6 +42,10 @@
       .card-frame-description-quote {
         font-style: italic;
         margin: 1% 0 0 2%; }
+  .card h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
   .card-artwork {
     text-align: center;
     margin: 0 auto;
@@ -64,7 +68,8 @@
     border-radius: 18px/40px;
     margin: 2px 0;
     padding: 0 3px;
-    background-color: #e7c47d; }
+    background: black;
+    background: linear-gradient(117deg, rgba(0, 0, 0, 0.853379) 0%, #e2d157 35%, #e2d157 72%, rgba(0, 0, 0, 0.833771) 100%); }
 
 .frame-header {
   display: flex;
@@ -100,17 +105,18 @@
   color: #eee;
   width: 100%; }
   .info-left {
-    font-size: 12px; }
+    margin-top: 0.5%;
+    font-size: 9px; }
   .info-center--orb {
     width: 10;
     height: 6px;
     background-color: white;
     border-radius: 50%; }
   .info-right {
-    margin-top: 4%;
-    font-size: 10px; }
+    margin-top: 2.75%;
+    font-size: 8px; }
   .info-right--hp {
-    margin: 12% 0 0 0;
+    margin: 11.5% 0 0 0;
     float: right;
     border: 1px solid #313131;
     border-radius: 18px/40px;

@@ -29,7 +29,6 @@ $text-area-texture-color: #edecf1;
   }
 
   &-frame {
-    // background-color: $frame-color;
     z-index: 1;
     position: relative;
     height: 110%;
@@ -44,7 +43,6 @@ $text-area-texture-color: #edecf1;
       font-size: 24px;
       height: 35%;
       border: 1px solid $border-color;
-      // background-color: $text-area-texture-color;
       background-image: url("../assets/texture.jpg");
       background-repeat: repeat-y;
     }
@@ -61,6 +59,12 @@ $text-area-texture-color: #edecf1;
         margin: 1% 0 0 2%;
       }
     }
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &-artwork {
@@ -91,7 +95,14 @@ $text-area-texture-color: #edecf1;
     border-radius: 18px/40px;
     margin: 2px 0;
     padding: 0 3px;
-    background-color: #e7c47d;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      117deg,
+      rgba(0, 0, 0, 0.8533788515406162) 0%,
+      rgba(226, 209, 87, 1) 35%,
+      rgba(226, 209, 87, 1) 72%,
+      rgba(0, 0, 0, 0.8337710084033614) 100%
+    );
   }
 }
 
@@ -134,7 +145,8 @@ $text-area-texture-color: #edecf1;
   width: 100%;
 
   &-left {
-    font-size: 12px;
+    margin-top: 0.5%;
+    font-size: 9px;
   }
 
   &-center--orb {
@@ -145,12 +157,12 @@ $text-area-texture-color: #edecf1;
   }
 
   &-right {
-    margin-top: 4%;
-    font-size: 10px;
+    margin-top: 2.75%;
+    font-size: 8px;
   }
 
   &-right--hp {
-    margin: 12% 0 0 0;
+    margin: 11.5% 0 0 0;
     float: right;
     border: 1px solid $border-color;
     border-radius: 18px/40px;
