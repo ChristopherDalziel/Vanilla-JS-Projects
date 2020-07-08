@@ -99,3 +99,6 @@
     background-color: #a7a7a9;
     padding: 2px 10px;
     width: fit-content; }
+
+.paintbrush {
+  max-width: 10px; }
