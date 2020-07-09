@@ -46,7 +46,10 @@ h2 {
     .card-frame-description {
       margin: 14% 0 0 2%; }
       .card-frame-description-break {
-        margin: 1% 5%; }
+        margin: 1% 2%;
+        height: 1px;
+        background: #313131;
+        background: -webkit-gradient(linear, 0 0, 100% 0, from(#eee), to(#eee), color-stop(50%, #313131)); }
       .card-frame-description-quote {
         font-style: italic;
         margin: 1% 0 0 2%; }

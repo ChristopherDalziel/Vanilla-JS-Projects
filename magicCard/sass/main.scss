@@ -61,7 +61,17 @@ h2 {
       margin: 14% 0 0 2%;
 
       &-break {
-        margin: 1% 5%;
+        margin: 1% 2%;
+        height: 1px;
+        background: $border-color;
+        background: -webkit-gradient(
+          linear,
+          0 0,
+          100% 0,
+          from(#eee),
+          to(#eee),
+          color-stop(50%, $border-color)
+        );
       }
 
       &-quote {
