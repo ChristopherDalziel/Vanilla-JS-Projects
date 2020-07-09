@@ -90,7 +90,6 @@ h2 {
     box-shadow: 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
   }
 
-  // Shouldn't need to repeat this
   &-header--type {
     z-index: 1;
     font-family: "Beleren Bold";
@@ -107,11 +106,15 @@ h2 {
   }
 
   &-header--set-icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 53px;
+    height: 25px;
     font-family: "Beleren Bold";
-    float: right;
+    font-size: 25px;
     border: 1px solid $border-color;
     border-radius: 18px/40px;
-    margin: 2px 0;
+    margin: 5px 0;
     padding: 0 3px;
     background: rgb(0, 0, 0);
     background: linear-gradient(
@@ -121,6 +124,20 @@ h2 {
       rgba(226, 209, 87, 1) 72%,
       rgba(0, 0, 0, 0.8337710084033614) 100%
     );
+
+    &--letter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 4px;
+      padding-right: 1px;
+      transform: scale(1.3, 1);
+    }
+
+    &--number {
+      // padding-top: 1px;
+      font-size: 17px;
+    }
   }
 }
 
