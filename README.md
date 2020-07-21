@@ -14,6 +14,6 @@
 
 ![movieSeating](./README_Assets/exchange.png)
 
-#magicCard
+# magicCard
 
 ![magicCard](./README_Assets/magicCard.png)
