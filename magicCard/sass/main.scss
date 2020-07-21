@@ -3,6 +3,8 @@ $border-color: #313131;
 $frame-color: #e1e0e5;
 $header-background-color: #b3aeb2;
 $text-area-texture-color: #edecf1;
+$background-texture: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url("../assets/texture.jpg");
 
 * {
   margin: 0;
@@ -141,7 +143,6 @@ h2 {
         margin: 9.9% 0 0 0;
         border: 1px solid $border-color;
         border-radius: 18px/40px;
-        // background-color: #a7a7a9;
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.4)
@@ -171,8 +172,7 @@ h2 {
   margin-top: 6px;
   border-radius: 18px/40px;
   padding-left: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../assets/texture.jpg");
+  background-image: $background-texture;
   box-shadow: 0 0 0 2px #000, 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
 
   &--name {
@@ -187,8 +187,7 @@ h2 {
     border-top: 1px solid $border-color;
     border-right: 1px solid $border-color;
     border-radius: 18px/40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("../assets/texture.jpg");
+    background-image: $background-texture;
     padding: 10px 5px 7px 5px;
     box-shadow: 0 0 0 5px $border-color, -3px 3px 2px 5px #000;
 
