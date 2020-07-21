@@ -13,3 +13,7 @@
 # exchangeRateCalculator
 
 ![movieSeating](./README_Assets/exchange.png)
+
+#magicCard
+
+![magicCard](./README_Assets/magicCard.png)
