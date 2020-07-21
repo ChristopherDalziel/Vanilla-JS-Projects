@@ -16,7 +16,8 @@ h2 {
   margin-top: 56px;
   border-radius: 25px;
   box-shadow: -8px 9px 16px -3px #000;
-  background-color: #181411; }
+  background-color: #181411;
+  transition: all 0.2s ease-in-out; }
   .card-background {
     background-image: url("../assets/mtg-black-background.jpg");
     background-size: auto 696px;
@@ -107,6 +108,10 @@ h2 {
         height: 31px;
         box-shadow: inset -2px 2px 1px #313131, inset 1px -1px 0 #fff;
         z-index: 2; }
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05); }
 
 .icon-container {
   display: flex; }

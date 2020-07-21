@@ -27,6 +27,7 @@ h2 {
   border-radius: 25px;
   box-shadow: -8px 9px 16px -3px #000;
   background-color: $card-border-color;
+  transition: all 0.2s ease-in-out;
 
   &-background {
     background-image: url("../assets/mtg-black-background.jpg");
@@ -156,6 +157,11 @@ h2 {
       }
     }
   }
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .icon-container {
