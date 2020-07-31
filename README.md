@@ -17,3 +17,7 @@
 # magicCard - [No JS, just HTML/SCSS]
 
 ![magicCard](./README_Assets/magicCard.png)
+
+# hangmanGame
+
+![hangmanGame] No image yet
