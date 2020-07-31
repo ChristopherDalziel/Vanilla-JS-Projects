@@ -1,0 +1,16 @@
+body {
+  background-color: #34459e;
+  color: #fff;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  /* Rounds line ends */
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
