@@ -25,18 +25,17 @@ body {
   width: 300px;
   position: relative;
   transform: scale(1);
-  animation: breatheIn 3s linear forwards;
 }
 
-.container.breatheIn {
-  animation: breathe 3s linear forwards;
+.container.grow {
+  animation: grow 3s linear forwards;
 }
 
-.container.breatheOut {
-  animation: breathe 3s linear forwards;
+.container.shrink {
+  animation: shrink 3s linear forwards;
 }
 
-@keyframes breatheIn {
+@keyframes grow {
   from {
     transform: scale(1);
   }
@@ -46,13 +45,13 @@ body {
   }
 }
 
-@keyframes breatheOut {
+@keyframes shrink {
   from {
     transform: scale(1.2);
   }
 
   to {
-    transform: scale(1.2);
+    transform: scale(1);
   }
 }
 
