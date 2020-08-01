@@ -25,6 +25,35 @@ body {
   width: 300px;
   position: relative;
   transform: scale(1);
+  animation: breatheIn 3s linear forwards;
+}
+
+.container.breatheIn {
+  animation: breathe 3s linear forwards;
+}
+
+.container.breatheOut {
+  animation: breathe 3s linear forwards;
+}
+
+@keyframes breatheIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes breatheOut {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
 }
 
 .circle {
